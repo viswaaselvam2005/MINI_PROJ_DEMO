@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/viswaaselvam2005/MINI_PROJ_DEMO/static/css/main.5cf6d440.css",
+    "main.js": "/viswaaselvam2005/MINI_PROJ_DEMO/static/js/main.7c2be248.js",
+    "static/media/Background.png": "/viswaaselvam2005/MINI_PROJ_DEMO/static/media/Background.eb8badb729a6ac2f9a2a.png",
+    "static/media/bag2.png": "/viswaaselvam2005/MINI_PROJ_DEMO/static/media/bag2.91d579b9c7c33e7e8639.png",
+    "index.html": "/viswaaselvam2005/MINI_PROJ_DEMO/index.html",
+    "main.5cf6d440.css.map": "/viswaaselvam2005/MINI_PROJ_DEMO/static/css/main.5cf6d440.css.map",
+    "main.7c2be248.js.map": "/viswaaselvam2005/MINI_PROJ_DEMO/static/js/main.7c2be248.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5cf6d440.css",
+    "static/js/main.7c2be248.js"
+  ]
+}
