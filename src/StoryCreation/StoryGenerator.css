@@ -1,0 +1,179 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/assets/Background.png'); /* Ensure the path to the image is correct */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: 'Moul', sans-serif;
+}
+
+.container-fluid {
+  display: flex;
+}
+
+.sidebar {
+  width: 250px;
+  background: rgba(255, 255, 255, 0.1); /* Transparent background */
+  backdrop-filter: blur(10px); /* Glassy blur effect */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 100vh; /* Ensure the sidebar takes full height */
+  overflow-y: auto; /* Scrollable content */
+}
+
+.sidebar-title {
+  font-size: 1.5em;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  margin: 10px 0;
+  color: #fff;
+}
+
+.story-content {
+  flex: 1;
+  padding: 20px;
+  margin-top: 220px;
+}
+
+.story-subject {
+  color: #5353a3;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.story-input-section {
+  width: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.story-textarea {
+  background-color: transparent;
+  width: 60%;
+  height: 60px;
+  border: 1px solid #ddd;
+  resize: none;
+  padding: 10px;
+  margin-left: 200px;
+  color: white;
+  font-size: 18px;
+  border-radius: 20px;
+  box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease;
+}
+
+.story-textarea:hover {
+  box-shadow: 0 0 8px 2px rgba(83, 83, 163, 0.75); /* Adding glow effect */
+}
+
+.story-textarea::placeholder {
+  color: #888;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.story-actions {
+  display: flex;
+  margin-top: 20px;
+  width: 100%;
+ 
+  gap: 10px;
+}
+
+.action-button {
+  border-radius: 20px;
+  padding: 15px 40px;
+  font-size: 14px;
+  cursor: pointer;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.add-details {
+  color: #5353a3;
+  background-color: #f0f0f0;
+  margin-left: 220px;
+  
+}
+
+.add-details:hover {
+  background-color: #ddd;
+}
+
+.generate-story {
+  background-color: #5353a3;
+  color: #fff;
+  margin-left: 290px;
+}
+
+.generate-story:hover {
+  background-color: #444;
+}
+.sidebar-menu {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-item {
+  margin: 10px 0;
+  color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3); /* Light border for partition */
+}
+
+/* Optional: Adjust spacing between items */
+.sidebar-item:last-child {
+  border-bottom: none; /* No border for the last item */
+}
+
+.sidebar-item {
+  padding: 10px 0;
+  margin: 10px 0;
+  color: #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.sidebar-item:last-child {
+  border-bottom: none;
+}
+
+.story-subject {
+  font-size: 50px; /* Larger font size for emphasis */
+  color: #5353a3;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bold; /* Make it bold */
+  position: relative;
+  margin-right: 480px;
+  animation: flow 3s ease-in-out infinite; /* Flow effect */
+}
+
+/* Define the flow effect with text-shadow animation */
+@keyframes flow {
+  0% {
+    text-shadow: 2px 2px 5px rgba(83, 83, 163, 0.5), 
+                 4px 4px 10px rgba(83, 83, 163, 0.3);
+  }
+  50% {
+    text-shadow: 4px 4px 10px rgba(83, 83, 163, 0.7), 
+                 6px 6px 15px rgba(83, 83, 163, 0.5);
+  }
+  100% {
+    text-shadow: 2px 2px 5px rgba(83, 83, 163, 0.5), 
+                 4px 4px 10px rgba(83, 83, 163, 0.3);
+  }
+}

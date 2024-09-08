@@ -1,0 +1,41 @@
+.glassy-navbar {
+  background: rgba(255, 255, 255, 0.1); /* Very transparent white background */
+  backdrop-filter: blur(10px); /* Blur effect for glassy appearance */
+  border: 1px solid rgba(255, 255, 255, 0.3); /* Optional: Light border for definition */
+  border-radius: 20px; /* Rounded corners for the border */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Light shadow for better separation */
+  position: fixed; /* Keep the navbar fixed at the top */
+  width: calc(100% - 40px); /* Adjust width to account for padding if needed */
+  top: 20px; /* Adjust top position to create space from the top */
+  left: 20px; /* Adjust left position to create space from the sides */
+  z-index: 1000; /* Ensure it stays above other content */
+  padding: 10px 20px; /* Padding for spacing */
+}
+
+/* Optional: Adjust navbar-brand and nav-items for alignment with rounded corners */
+.navbar-brand {
+  color: #fff; /* White text color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Light text shadow for readability */
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto; /* Align items to the right */
+}
+
+.nav-item {
+  margin-left: 20px; /* Space between items */
+}
+
+.nav-link {
+  color: #fff; /* White text color */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Light text shadow for readability */
+  transition: color 0.3s ease, text-shadow 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.nav-link:hover {
+  color: #ffcc00; /* Glowing color on hover */
+  text-shadow: 0 0 10px #ffcc00; /* Glowing effect */
+}
